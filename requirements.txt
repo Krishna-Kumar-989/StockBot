@@ -1,0 +1,14 @@
+pandas
+duckduckgo-search
+openbb
+pandas-ta
+feedparser
+python-dotenv
+requests
+streamlit
+Pillow
+argparse
+langgraph
+langchain
+langchain-core
+langchain-groq
