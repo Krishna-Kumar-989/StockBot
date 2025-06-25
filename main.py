@@ -515,7 +515,7 @@ app = graph.compile()
 
 # App Title
 def main():
-    st.title("Stock Financial Advisor")
+    st.title("StockBot")
 
 
     user_query = st.text_input("Enter your financial query:", "")
