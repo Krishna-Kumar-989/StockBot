@@ -1,13 +1,13 @@
 
 
 
-## 📈 StockBot
+## StockBot
 
 ****StockBot**** is a Streamlit-based financial advisor tailored for the Indian stock market. It focuses on analyzing individual Nifty 50 stocks by retrieving historical price and volume data, scraping recent news, and using LLM-powered analytics to generate actionable buy/hold/sell recommendations.
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Single-stock analysis (Nifty 50 only)
 - Fetches historical price and volume data via IndianAPI
@@ -20,13 +20,13 @@
 
 ---
 
-## 📦 Dependencies
+##  Dependencies
 
 All required packages are listed in the `requirements.txt` file.
 
 ---
 
-## 🔧 Installation
+##  Installation
 
 1. ****Clone the repo****
    ```bash
@@ -54,14 +54,14 @@ All required packages are listed in the `requirements.txt` file.
 
 ---
 
-## ⚙️ Configuration
+##  Configuration
 
 - ****`API_KEY`****: Your IndianAPI key for `https://stock.indianapi.in/indian-stock-market`
 - ****`GROQKEY`****: Your API key for the Groq LLM service
 
 ---
 
-## 🧩 Project Structure
+##  Project Structure
 
 ```
 .
@@ -75,7 +75,7 @@ All required packages are listed in the `requirements.txt` file.
 
 ---
 
-## 🚀 Usage
+##  Usage
 
 Run the Streamlit app:
 
@@ -93,7 +93,7 @@ streamlit run main.py
 
 ---
 
-## 💡 Examples
+##  Examples
 
 ```
 Enter your financial query: Should I buy TCS today?
@@ -105,7 +105,7 @@ Enter your financial query: Should I buy TCS today?
 
 ---
 
-## ⚠️ Limitations
+##  Limitations
 
 - ****Single-ticker only**** (cannot handle multi-stock queries)
 - ****Nifty 50 universe**** hard-coded in `consts.py`
