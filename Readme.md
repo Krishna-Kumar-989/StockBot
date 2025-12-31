@@ -10,7 +10,7 @@
 ##  Features
 
 - Single-stock analysis (Nifty 50 only)
-- Fetches historical price and volume data via IndianAPI
+- Fetches historical price and volume data via Indian Stock Market API by https://indianapi.in/
 - Scrapes recent news headlines using Google News RSS
 - Analyzes news and data with Groq LLM (LLaMA 3.1 8B Instant) to provide:
   - Statistical summaries and trend detection
